@@ -1,0 +1,15 @@
+:root { --bg1:#5c2680; --bg2:#241745; --bg3:#0d0d26; --text:#ffffff; --sub:rgba(255,255,255,.75); --accent:#f28cb3; --card:rgba(255,255,255,.08); --line:rgba(255,255,255,.14); }
+* { box-sizing: border-box; }
+body { margin:0; color:var(--text); background:linear-gradient(180deg,var(--bg1),var(--bg2) 45%,var(--bg3)); background-attachment:fixed; min-height:100vh;
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif; line-height:1.8; }
+main { max-width:720px; margin:0 auto; padding:40px 20px 64px; }
+header { display:flex; align-items:center; gap:14px; margin-bottom:28px; }
+header img { width:56px; height:56px; border-radius:13px; }
+header a { color:var(--text); text-decoration:none; font-weight:700; letter-spacing:.15em; }
+h1 { font-size:28px; line-height:1.4; margin:0 0 8px; }
+h2 { font-size:18px; margin:32px 0 8px; padding-top:20px; border-top:1px solid var(--line); }
+p, li { color:var(--sub); }
+a { color:var(--accent); }
+.card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 20px; margin:16px 0; }
+mark { background:#ffd95a; color:#222; padding:0 4px; border-radius:4px; }
+footer { margin-top:48px; font-size:13px; color:var(--sub); }
